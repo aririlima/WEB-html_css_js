@@ -1,0 +1,28 @@
+iframe#frame{
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-left: 430px;
+    border: none;
+    overflow: hidden;
+}
+iframe#frame::-webkit-scrollbar{
+    display: none;
+}
+
+section#conteudo #tab{
+    background-color: #dddd60;
+    border: 7px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+    text-align: center;
+    margin: 10px 10px 10px 35px;
+}
+section#conteudo td{
+    border: 7px solid white;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    
+}

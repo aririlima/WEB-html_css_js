@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Casa Nova</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/estiloIndex.css" rel="stylesheet"/>
+        <link href="css/padraoMenor.css" rel="stylesheet"/>
         <link href="css/etilo.css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="imagens/favicon.ico" />
+
     </head>
     <body>
-        <div><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/></div>
+        <div class="tudo">
+        <header><a href="index.html"><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/></a>
         
         <nav>
             <ul class="menu">
@@ -26,18 +27,41 @@ and open the template in the editor.
                 <li><a href="Trabalhe.html">Trabalhe com a gente</a></li>
             </ul>
        </nav>
-       <main> 
-            <h2>Vagas:</h2>
-        
+        </header>
+       <main class="main"> 
+           <article class="trabalhe">
+               <h1>Vagas Disponíveis</h1>
+               <table>
+                   <tr>
+                    <th>Cargos<br></th>
+                    <th>Vagas<br></th>
+                    <th></th>
+                    </tr>
+                    <tr>
+                    <td><br><br>Secretária</td>
+                    <td><br><br><center>1</center></td>
+                    <td><br><br><a href="vagas.html">Candidatar-se</td>
+                    </tr>
+                    <tr>
+                    <td><br>Corretor</td>
+                    <td><center><br>5</center></td>
+                    <td><br><a href="vagas.html">Candidatar-se</td>
+                    </tr>
+                    <tr>
+                    <td><br>Auxiliar administrativo</td>
+                    <td><center><br>2</center></td>
+                    <td><br><a href="vagas.html">Candidatar-se</td>
+                    </tr> 
+               </table>
+           </article>
 
-            <div class="redes"> <h2>Redes Sociais </h2>
-                <a href="http://www.facebook.com/imobiliariacasanova">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
-                <a href="http://www.twitter.com/imobiliariacasanova">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
-            </div>
        </main>
-        
+        </div>
         <footer>
             <br>&COPY; Arianna Lima da Silva, 2016
+            <br><br><a href="http://www.facebook.com/imobiliariacasanova" target="parent">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
+            <a href="http://www.twitter.com/imobiliariacasanova" target="parent">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
+
         </footer>
     </body>
 </html>

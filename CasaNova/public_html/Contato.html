@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <title>Casa Nova</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/reset.css" rel="stylesheet"/>
+        <link href="css/estiloIndex.css" rel="stylesheet"/>
         <link href="css/etilo.css" rel="stylesheet"/>
+        <link href="css/formulario.css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="imagens/favicon.ico" />
+
     </head>
     <body>
-        <div><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/></div>
+        <div class="tudo">
+        <header><a href="index.html"><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/></a>
         
         <nav>
             <ul class="menu">
@@ -26,18 +27,70 @@ and open the template in the editor.
                 <li><a href="Trabalhe.html">Trabalhe com a gente</a></li>
             </ul>
        </nav>
-       <main> 
-            <h2>Contato</h2>
-        
+        </header>
+       <main class="main"> 
+           <h1>Formulário</h1>
+           <form>
+               <fieldset id="usuario">
+                   <h2>Identificação do usuário:</h2>
+                   <p><input type="text" class="todos" id="nome" name="nome" placeholder="Nome Completo"/><label for="nome"> Nome</label></p>
+                   <p><input type="text" class="todos" id="cpf" name="cpf" placeholder="xxxxxxxxx-xx"/><label for="cpf"> CPF</label></p>
+                   <p><input type="date" class="todos" id="date" placeholder="dd/mm/aaaa" name="date"/><label for="date"> Nascimento</label></p>
+                   <p><input type="text" class="todos" id="fone" placeholder="(xx)xxxx-xxxx" name="fone"/><label for="fone"> Telefone</label></p>
+                   <p><input type="email" class="todos" id="email" placeholder="fulano@mail.com" name="email"/><label for="email"> E-mail</label></p> 
+                   <p><input type="radio" name="sexo" id="sexof"/><label for="sexof">Feminino</label></p>
+                   <p><input type="radio" name="sexo" id="sexom"/><label for="sexom">Masculino</label></p>
 
-            <div class="redes"> <h2>Redes Sociais </h2>
-                <a href="http://www.facebook.com/imobiliariacasanova">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
-                <a href="http://www.twitter.com/imobiliariacasanova">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
-            </div>
+                   
+               </fieldset>
+               <fieldset id="endereco">
+                   <h2>Endereço:</h2>
+                   <p><label for="cidade">Cidade</label>
+                       <select name="city" id="cidade">
+                           <option>Rio de Janeiro</option>
+                           <option>Nova Iguacu</option>
+                           <option>Angra</option>
+                           <option>Cabo Frio</option>
+                       </select>
+                   </p>
+                   <p><input type="text" class="todos" id="end" placeholder="Rua Sem Numero, 0" name="endereco"/><label for="end"> Endereço</label></p> 
+                   <p><input type="email" class="todos" id="comp" placeholder="Vila do ninguem" name="complemento"/><label for="comp"> Complemento</label></p> 
+                   <p><input type="text" class="todos" id="cep" placeholder="xxxxx-xxx" name="cep"/> <label for="cep">CEP</label></p> 
+
+               </fieldset>
+               <fieldset id="msg">
+                    <h2>Menssagem:</h2>
+                    <p> 
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+                    </p>
+               </fieldset>
+               
+               <p class="submit">
+                   <input type="submit" onclick="Enviar();" value="Enviar"/></p>
+           
+           </form>
+           
+          
+           <article class="contato">
+            <h2>Casa Nova:</h2>
+            <p>CNPJ: 2257689-0001
+            <br>
+            <br>Endereço: Rua Sei Lá, 28, Recreio dos Bandeirantes, Rio de Janeiro , RJ.
+            <br>
+            <br>CEP: 22678-080
+            <br>
+            <br>TEL: 3567-8890 / 3560-9088</p>
+            </article>
+           
+
        </main>
+        </div>
         
         <footer>
             <br>&COPY; Arianna Lima da Silva, 2016
+            <br><br><a href="http://www.facebook.com/imobiliariacasanova" target="parent">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
+            <a href="http://www.twitter.com/imobiliariacasanova" target="parent">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
+
         </footer>
     </body>
 </html>

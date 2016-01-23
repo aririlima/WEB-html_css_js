@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+ul.opcoes {
+    width: 700px;
+    margin-left: 90px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul.opcoes li{
+    color: black;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    -webkit-transition: all .4s ease-in;
+}
+ul.opcoes li span{
+    opacity: 1;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 8pt;
+    padding: 5px;
+    line-height: 50px;
+}
+ul.opcoes li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul.opcoes li#opcao01{
+    background: url('../imagens/fotos/casa1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao01:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao02{
+    background: url('../imagens/fotos/casa2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao02:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao03{
+    background: url('../imagens/fotos/casa3.jpg') no-repeat; 
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao03:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao04{
+    background: url('../imagens/fotos/sala1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao04:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao05{
+    background: url('../imagens/fotos/sala2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao05:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao06{
+    background: url('../imagens/fotos/sala3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao06:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao07{
+    background: url('../imagens/fotos/faixada1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao07:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao08{
+    background: url('../imagens/fotos/sala4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao08:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+ul.opcoes li#opcao09{
+    background: url('../imagens/fotos/faixada2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-color: #ffffff;
+}
+ul.opcoes li#opcao09:hover{
+    background-position:0px 0px; 
+    background-size:200px 200px;
+}
+
+

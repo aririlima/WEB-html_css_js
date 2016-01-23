@@ -6,10 +6,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/reset.css" rel="stylesheet"/>
-        <link href="css/etilo.css" rel="stylesheet"/>
+        <link href="css/estiloIndex.css" rel="stylesheet"/>
+        <link href="css/noticias.css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="imagens/favicon.ico" />
+        <script language="javascript" src="js/Funcoes.js"> </script>
     </head>
     <body>
-        <div><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/></div>
+        <div class="tudo">
+        <header><img src="imagens/logoo.png" alt="Logo Casa Nova" id="logo"/>
         
         <nav>
             <ul class="menu">
@@ -22,18 +26,57 @@
                 <li><a href="Trabalhe.html">Trabalhe com a gente</a></li>
             </ul>
        </nav>
-       <main> 
-            <h2>qlq coisa</h2>
-        
-                <img src="imagens/minhacasaminhavida.png" alt = "Minha casa minha vida">
-            <div class="redes"> <h2>Redes Sociais </h2>
-                <a href="http://www.facebook.com/imobiliariacasanova">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
-                <a href="http://www.twitter.com/imobiliariacasanova">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
-            </div>
+        </header>
+       <main class="main">
+           <section id="dinamico">
+               <div class="destaque">
+               <h1>Destaques</h1>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/w7aDrf2UHmI" frameborder="0" allowfullscreen></iframe>
+               <br><img src="imagens/casa1.gif"/>
+               <img src="imagens/casa2.gif"/>
+               <img src="imagens/casa3.gif"/>
+               <img src="imagens/faixada2.gif"/>
+               </div>
+           </section>
+           <section id="noticias">
+           <article class="news">
+                <h2>Notícias</h2>
+                <p>Clique na imagem para ler a notícia!</p>
+                <section id="conteudo">
+                    <table id="tab">
+                       
+                    <tr>
+                        <td><a href="Noticias.html#primeira" target="janela"><img src="imagens/news-1.gif"></a></td>
+                        <td><a href="Noticias.html#segunda" target="janela"><img src="imagens/news-2.gif"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Noticias.html#terceira" target="janela"><img src="imagens/news-3.gif"></a></td>
+                        <td><a href="Noticias.html#quarta" target="janela"><img src="imagens/news-4.gif"></a></td>
+                    </tr>
+                    
+               </table>
+                    <iframe src="Noticias.html" name="janela" id="frame"></iframe>
+                </section>
+                
+            </article>
+           </section>   
        </main>
+           <figure class="linkminhacasa">
+                 <img src="imagens/badges-mcmv-1.gif" alt = "Minha casa minha vida">
+                <figcaption>
+                    <a href="http://www.caixa.gov.br/voce/habitacao/minha-casa-minha-vida/Paginas/default.aspx" target="parent">
+                        <h2>Clique aqui para maiores informaçõe.</h2></a>
+                </figcaption>
+            </figure>
+        
+       </div> 
         
         <footer>
             <br>&COPY; Arianna Lima da Silva, 2016
+            <br><br><a href="http://www.facebook.com/imobiliariacasanova" target="parent">Facebook <img src="imagens/icon_facebook_mini.png" alt="link facebook"></a>
+            <a href="http://www.twitter.com/imobiliariacasanova" target="parent">Twitter <img src="imagens/twitter-mini-logo.png" alt="link towiter"></a>
+
         </footer>
+        
 </body>
 </html>
